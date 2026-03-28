@@ -5,3 +5,7 @@
 /.vs/mIRCGfx
 /.vshistory
 /x64/Debug
+/Debug
+/Release
+/x64/Release
+/Script/.vshistory/mIRCGfx.mrc

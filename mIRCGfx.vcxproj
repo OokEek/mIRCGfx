@@ -251,6 +251,7 @@
   <ItemGroup>
     <None Include="cpp.hint" />
     <None Include="mIRCGfx.def" />
+    <None Include="Script\mIRCGfx.mrc" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="mIRCGfx.rc" />
