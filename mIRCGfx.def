@@ -1,0 +1,10 @@
+LIBRARY MIRCGFX
+EXPORTS
+
+LoadDll
+UnloadDll
+
+DllInfo
+
+DllDraw
+DllDrawCopyNext
