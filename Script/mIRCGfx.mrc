@@ -115,8 +115,8 @@ alias testmircgfx {
 
   mircgfx_cleanup
 
-  if (!%mircgfx_pic1) set %mircgfx_pic1 $sfile($mircdir*.jpg,Select Picture One,Select)
-  if (!%mircgfx_pic2) set %mircgfx_pic2 $sfile($mircdir*.jpg,Select Picture Two,Select)
+  if (!%mircgfx_pic1) set %mircgfx_pic1 $qt($sfile($mircdir*.jpg,Select Picture One,Select))
+  if (!%mircgfx_pic2) set %mircgfx_pic2 $qt($sfile($mircdir*.jpg,Select Picture Two,Select))
 
   if ($window(@pic)) window -c $v1
   window -ap @pic
